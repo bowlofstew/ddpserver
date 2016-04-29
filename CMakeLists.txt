@@ -24,5 +24,4 @@ if("${CMAKE_MODULE_PATH}" STREQUAL "")
 endif()
 
 add_subdirectory(src)
-# NOTE: There are some missing dependencies in this directory
-#add_subdirectory(examples)
+add_subdirectory(examples)

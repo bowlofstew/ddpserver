@@ -3,10 +3,9 @@
 // $ g++ mongoose.cpp -lmongoose -ljvar -lddpserver -o example
 // $ ./example
 
-// NOTE: We need to add this dependency still
 #include "mongoose.h"
-#include <ddpserver.h>
-#include <jvar/jvar.h>
+#include "ddpserver.h"
+#include "jvar.h"
 
 DdpServer *ddpServer;
 
